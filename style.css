@@ -102,3 +102,27 @@ body {
     cursor: pointer;
 
 }
+
+.feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.featurein {
+    width: 170px;
+    /* background-color: red; */
+    padding: 25px 15px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    border: 1px solid #cce7d0;
+
+
+    text-align: center;
+}
+
+.featurein:hover {
+    box-shadow: 10px 10px 50px rbga(0, 0, 0, 0.06);
+}
+
+/* // will this add */
