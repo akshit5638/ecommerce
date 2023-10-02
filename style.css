@@ -8,3 +8,97 @@
     font-family: 'League Spartan', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    padding-bottom: 1000px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e3e6f3;
+    height: 10vh;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.navfunction {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 5%;
+    justify-content: space-around;
+    padding-right: 5px;
+
+}
+
+.logo {
+    padding-left: 70px;
+}
+
+.navfunction a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+
+}
+
+.navfunction a:hover {
+    color: #088178;
+    font-size: large;
+
+}
+
+.hero {
+
+    height: 90vh;
+    width: 100%;
+    background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/hero4.png);
+    background-size: cover;
+    background-position: top 25% right 0;
+}
+
+.heroinfo {
+    padding-left: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5%;
+    height: 85vh;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #088178;
+}
+
+.hero h2 {
+    font-size: 35px;
+}
+
+.hero p {
+    padding-top: 20px;
+}
+
+.hero button {
+    background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+
+    font-size: 20px;
+    /* padding: 14px 80px 14px 65px; */
+    background-position: center;
+    padding: 15px 65px;
+    cursor: pointer;
+
+}
