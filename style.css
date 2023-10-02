@@ -9,12 +9,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    padding-bottom: 1000px;
+}
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: grey; */
+    background-color: #e3e6f3;
     height: 10vh;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
 
 }
 
@@ -24,7 +34,8 @@
     width: 50%;
     gap: 5%;
     justify-content: space-around;
-    padding-right: 5%;
+    padding-right: 5px;
+
 }
 
 .logo {
@@ -35,12 +46,20 @@
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.5s ease;
+
+}
+
+.navfunction a:hover {
+    color: #088178;
+    font-size: large;
+
 }
 
 .hero {
 
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(Build-and-Deploy-Ecommerce-Website-main/img/hero4.png);
     background-size: cover;
     background-position: top 25% right 0;
@@ -82,4 +101,26 @@
     padding: 15px 65px;
     cursor: pointer;
 
+}
+
+.feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.featurein {
+    width: 170px;
+    /* background-color: red; */
+    padding: 25px 15px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    border: 1px solid #cce7d0;
+
+
+    text-align: center;
+}
+
+.featurein:hover {
+    box-shadow: 10px 10px 50px rbga(0, 0, 0, 0.06);
 }
